@@ -1,0 +1,33 @@
+.about-image {
+  position: relative;
+  padding: 20px;
+}
+
+.about-image.svg img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image.svg img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(255, 194, 0, 0.2);
+}
+
+@media (max-width: 991px) {
+  .about-image.svg img {
+    max-width: 300px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-image.svg img {
+    max-width: 280px;
+  }
+}

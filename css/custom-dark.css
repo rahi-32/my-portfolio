@@ -1,0 +1,65 @@
+/* Project Cards Styling */
+.project-info {
+  background: #1a1a1a;
+  border: 1px solid #2d2d2d !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.project-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-info h5 {
+  color: #ffc200;
+  margin-bottom: 1rem;
+}
+
+.project-info p {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.project-info a {
+  color: #ffc200;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-info a:hover {
+  color: #ffffff !important;
+}
+
+/* Form Control Dark Theme */
+.form-control {
+  background-color: #1a1a1a !important;
+  border: 1px solid #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 194, 0, 0.25) !important;
+}
+
+/* Timeline Improvements */
+.timeline-info small {
+  color: #ffc200 !important;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+/* Footer Improvements */
+.footer {
+  background: #1a1a1a;
+  border-top: 1px solid #2d2d2d;
+}
+
+.copyright-text {
+  color: #e0e0e0;
+}
