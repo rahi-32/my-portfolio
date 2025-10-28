@@ -65,6 +65,64 @@
 }
 
 /* Certificates section */
+/* Modal Styles */
+.modal-content {
+  background-color: #1a1a1a;
+  border: 1px solid #2d2d2d;
+}
+
+.modal-header {
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.modal-footer {
+  border-top: 1px solid #2d2d2d;
+}
+
+.modal-title {
+  color: #ffc200;
+}
+
+.certificate-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.certificate-details li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.certificate-details li:before {
+  content: "•";
+  color: #ffc200;
+  position: absolute;
+  left: 0;
+}
+
+.modal .close {
+  color: #ffffff;
+  text-shadow: none;
+  opacity: 0.8;
+}
+
+.modal .close:hover {
+  color: #ffc200;
+  opacity: 1;
+}
+
+.certificate-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(255, 194, 0, 0.1);
+}
 .certificates h2 {
   color: #ffffff;
   margin-bottom: 0.5rem;

@@ -112,31 +112,107 @@ https://www.tooplate.com/view/2115-marvel
         <div class="row mt-4">
           <!-- Certificate 1 -->
           <div class="col-sm-6 col-md-4 mb-4">
-            <div class="certificate-card text-center p-3 h-100">
-              <a href="https://example.com/certificate1" target="_blank" rel="noopener noreferrer">
-                <img src="images/certificates/cert1.png" alt="Certificate 1" class="img-fluid mb-3 certificate-img">
-                <h5 class="mb-0">AWS Certified Solutions Architect</h5>
-              </a>
+            <div class="certificate-card text-center p-3 h-100" data-toggle="modal" data-target="#certModal1">
+              <img src="images/certificates/aws-cert.png" alt="AWS Certificate" class="img-fluid mb-3 certificate-img">
+              <h5 class="mb-0">AWS Certified Solutions Architect</h5>
             </div>
           </div>
 
           <!-- Certificate 2 -->
           <div class="col-sm-6 col-md-4 mb-4">
-            <div class="certificate-card text-center p-3 h-100">
-              <a href="https://example.com/certificate2" target="_blank" rel="noopener noreferrer">
-                <img src="images/certificates/cert2.png" alt="Certificate 2" class="img-fluid mb-3 certificate-img">
-                <h5 class="mb-0">Docker Certified Associate</h5>
-              </a>
+            <div class="certificate-card text-center p-3 h-100" data-toggle="modal" data-target="#certModal2">
+              <img src="images/certificates/docker-cert.png" alt="Docker Certificate" class="img-fluid mb-3 certificate-img">
+              <h5 class="mb-0">Docker Certified Associate</h5>
             </div>
           </div>
 
           <!-- Certificate 3 -->
           <div class="col-sm-6 col-md-4 mb-4">
-            <div class="certificate-card text-center p-3 h-100">
-              <a href="https://example.com/certificate3" target="_blank" rel="noopener noreferrer">
-                <img src="images/certificates/cert3.png" alt="Certificate 3" class="img-fluid mb-3 certificate-img">
-                <h5 class="mb-0">Kubernetes Administrator</h5>
-              </a>
+            <div class="certificate-card text-center p-3 h-100" data-toggle="modal" data-target="#certModal3">
+              <img src="images/certificates/k8s-cert.png" alt="Kubernetes Certificate" class="img-fluid mb-3 certificate-img">
+              <h5 class="mb-0">Kubernetes Administrator</h5>
+            </div>
+          </div>
+
+          <!-- Certificate Modals -->
+          <!-- Modal 1 -->
+          <div class="modal fade" id="certModal1" tabindex="-1" role="dialog" aria-labelledby="certModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="certModal1Label">AWS Certified Solutions Architect</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/certificates/aws-cert.png" alt="AWS Certificate" class="img-fluid mb-3">
+                  <p class="mb-3">AWS Certified Solutions Architect - Associate certification. Demonstrates knowledge of AWS services and best practices for building secure and reliable applications.</p>
+                  <ul class="certificate-details">
+                    <li>Issue Date: October 2025</li>
+                    <li>Certificate ID: AWS-123456</li>
+                    <li>Skills: EC2, S3, VPC, IAM, RDS</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="https://drive.google.com/your-aws-cert-link" target="_blank" class="btn custom-btn custom-btn-bg">View Certificate</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 2 -->
+          <div class="modal fade" id="certModal2" tabindex="-1" role="dialog" aria-labelledby="certModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="certModal2Label">Docker Certified Associate</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/certificates/docker-cert.png" alt="Docker Certificate" class="img-fluid mb-3">
+                  <p class="mb-3">Docker Certified Associate (DCA) certification. Validates expertise in Docker containerization and enterprise operations.</p>
+                  <ul class="certificate-details">
+                    <li>Issue Date: September 2025</li>
+                    <li>Certificate ID: DCA-789012</li>
+                    <li>Skills: Docker, Container Orchestration, Networking</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="https://drive.google.com/your-docker-cert-link" target="_blank" class="btn custom-btn custom-btn-bg">View Certificate</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 3 -->
+          <div class="modal fade" id="certModal3" tabindex="-1" role="dialog" aria-labelledby="certModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="certModal3Label">Kubernetes Administrator</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/certificates/k8s-cert.png" alt="Kubernetes Certificate" class="img-fluid mb-3">
+                  <p class="mb-3">Certified Kubernetes Administrator (CKA). Demonstrates proficiency in Kubernetes cluster operations and management.</p>
+                  <ul class="certificate-details">
+                    <li>Issue Date: August 2025</li>
+                    <li>Certificate ID: CKA-345678</li>
+                    <li>Skills: Kubernetes, Container Orchestration, Cloud Native</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a href="https://drive.google.com/your-k8s-cert-link" target="_blank" class="btn custom-btn custom-btn-bg">View Certificate</a>
+                </div>
+              </div>
             </div>
           </div>
 
