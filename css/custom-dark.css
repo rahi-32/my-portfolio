@@ -63,3 +63,40 @@
 .copyright-text {
   color: #e0e0e0;
 }
+
+/* Certificates section */
+.certificates h2 {
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+.certificates p {
+  color: #cfcfcf;
+}
+.certificate-card {
+  background: #121212;
+  border: 1px solid #262626;
+  border-radius: 8px;
+}
+.certificate-card a {
+  color: inherit;
+  text-decoration: none;
+}
+.certificate-img {
+  max-width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background: #000;
+  padding: 8px;
+  border-radius: 6px;
+}
+.certificate-card h5 {
+  color: #ffc200;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .certificate-img {
+    height: 120px;
+  }
+}
